@@ -1,0 +1,20 @@
+{
+    "ios": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-ioss3bucket-ios-162026-authRole",
+            "UnauthRoleArn": "arn:aws:iam::906494407778:role/amplify-ioss3bucket-ios-162026-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::906494407778:role/amplify-ioss3bucket-ios-162026-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-ioss3bucket-ios-162026-deployment",
+            "UnauthRoleName": "amplify-ioss3bucket-ios-162026-unauthRole",
+            "StackName": "amplify-ioss3bucket-ios-162026",
+            "StackId": "arn:aws:cloudformation:us-west-2:906494407778:stack/amplify-ioss3bucket-ios-162026/42deea00-1ccd-11ea-8690-02651c062a22",
+            "AmplifyAppId": "d3gvfakke7fu0g"
+        },
+        "categories": {
+            "auth": {
+                "ioss3bucketf97cfc22": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mnv-xz-s13">
+                                <rect key="frame" x="0.0" y="44" width="414" height="409"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="945-ZW-wEa">
+                                        <rect key="frame" x="107" y="104.5" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="F5t-rP-hSG"/>
+                                            <constraint firstAttribute="height" constant="200" id="Vlr-9V-6Wv"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pic Bucket" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KT7-nW-4Vk">
+                                        <rect key="frame" x="16" y="369" width="382" height="40"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="945-ZW-wEa" firstAttribute="centerX" secondItem="mnv-xz-s13" secondAttribute="centerX" id="29x-6W-uYe"/>
+                                    <constraint firstItem="KT7-nW-4Vk" firstAttribute="leading" secondItem="mnv-xz-s13" secondAttribute="leading" constant="16" id="Bgi-ew-qGg"/>
+                                    <constraint firstItem="KT7-nW-4Vk" firstAttribute="centerX" secondItem="945-ZW-wEa" secondAttribute="centerX" id="bQ4-kp-EzF"/>
+                                    <constraint firstAttribute="bottom" secondItem="KT7-nW-4Vk" secondAttribute="bottom" id="gYJ-e7-NKf"/>
+                                    <constraint firstItem="945-ZW-wEa" firstAttribute="centerY" secondItem="mnv-xz-s13" secondAttribute="centerY" id="k8m-r3-Ndf"/>
+                                    <constraint firstAttribute="trailing" secondItem="KT7-nW-4Vk" secondAttribute="trailing" constant="16" id="wLO-sb-7bS"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cloud space for photos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngp-qG-ira">
+                                <rect key="frame" x="16" y="841" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mnv-xz-s13" secondAttribute="trailing" id="65J-Za-IWt"/>
+                            <constraint firstItem="mnv-xz-s13" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="AvK-jB-Xnu"/>
+                            <constraint firstItem="Ngp-qG-ira" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="RkT-pd-RE9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ngp-qG-ira" secondAttribute="trailing" constant="16" id="UnH-GY-41q"/>
+                            <constraint firstItem="mnv-xz-s13" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ynn-l1-icL"/>
+                            <constraint firstItem="Ngp-qG-ira" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="by6-RW-A0g"/>
+                            <constraint firstItem="mnv-xz-s13" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iqE-mc-1ns"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="400" height="400"/>
+    </resources>
+</document>

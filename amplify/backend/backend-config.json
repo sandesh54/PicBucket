@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"ioss3bucketf97cfc22": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"imagelibrary": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
